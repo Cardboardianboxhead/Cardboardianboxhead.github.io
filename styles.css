@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(98, 36, 132);
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: rgb(192, 163, 46);
+}
+
+#top-bar {
+    background-color: rgb(192, 163, 46);
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+}
+
+#top-bar a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#top-bar .btnLogin-popup {
+    width: 150px;
+    height: 60px;
+    background: transparent;
+    border: 4px solid rgb(98, 36, 132);
+    outline: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 1.6em;
+    color: rgb(98, 36, 132);
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .25s;
+}
+
+#top-bar .btnLogin-popup:hover {
+    background: rgb(98, 36, 132);
+    color: rgb(192, 163, 46);
+}
+
+#header {
+    text-align: center;
+    padding: 25px 0 25px;
+}
+
+#title-bar {
+    background-color: rgb(192, 163, 46);
+    text-align: center;
+    padding: 20px 0;
+}
+
+#title {
+    color: black;
+    font-size: 75px;
+    font-weight: bold;
+}
+
